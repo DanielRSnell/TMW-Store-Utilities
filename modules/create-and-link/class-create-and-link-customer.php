@@ -26,7 +26,7 @@ class TMW_Create_And_Link_Customer {
             return $actions;
         }
 
-        $actions['create_customer_account'] = __('Create customer account from billing info', 'tmw-store-utilities');
+        $actions['create_customer_account'] = __('Link Customer Account', 'tmw-store-utilities');
 
         return $actions;
     }
